@@ -81,7 +81,7 @@ a {
 }
 
 .header__logo {
-  
+  padding-right: 1.5rem
 }
 
 .header__title {
@@ -123,17 +123,34 @@ a {
 /* column styles */
 .columns {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .columns__content {
-  flex-basis: calc(33.333% - 1rem);
-  display: flex;
-  flex-direction: column;
+  display: block;
+  width: calc(50% - .5rem);
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 600px) {
+  .columns__content {
+    width: calc(33.3333% - 1rem);
+  }
 }
 
 .columns__content:nth-child(2n) {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 1rem;
+}
+
+@media (min-width: 600px) {
+  .columns__content:nth-child(2n) {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+.columns__picture {
+  display: block;
 }
 
 .columns__title {
