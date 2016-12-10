@@ -1,0 +1,4 @@
+node_modules
+build
+wp.sh
+docker-compose.yml

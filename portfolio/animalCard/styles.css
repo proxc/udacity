@@ -1,0 +1,42 @@
+.card {
+  max-width: 330px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin: 15px;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25)
+}
+
+.card__title {
+
+}
+
+.card__image{
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+.card__info {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.card__fact {
+  font-style: italic;
+}
+
+.card__items {
+  list-style: none;
+  padding: 0;
+}
+
+.card__item {
+}
+
+.card__item-label {
+  font-weight: bold
+}
+
+.card__desc {
+
+}
